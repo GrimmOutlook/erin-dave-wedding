@@ -1,58 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import css from './mystyles.scss';
+import './mystyles.scss';
 
-class App extends React.Component {
-	state = {
-		CaptainKirkBio: {},
-	};
-
-	componentDidMount() {
-		this.onGetKirkBio();
-	}
-
-	onGetKirkBio = async () => {
-		try {
-			const result = await fetch('http://stapi.co/api/v1/rest/character/search', {
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/x-www-form-urlencoded',
-				},
-				body: {
-					title: 'James T. Kirk',
-					name: 'James T. Kirk',
-				},
-			});
-			const resultJSON = await result.json();
-			const character = resultJSON.characters[0];
-			this.setState({ CaptainKirkBio: character });
-		} catch (error) {
-			console.log('error', error);
-		}
-	};
-
-	render() {
-		const { CaptainKirkBio } = this.state;
-		return (
-			<div className={css.app}>
-				<img alt="header" src="/dist/images/iceland.jpeg" className={css.app__header} />
-				<p>
-					We are a most promising species, Mr. Spock, as predators go. Did you know that? I frequently have my doubts. I dont. Not any more.
-					And maybe in a thousand years or so, we will be able to prove it.
-				</p>
-				<p>- Captain Kirk</p>
-				<section>
-					{Object.values(CaptainKirkBio).length === 0 ? (
-						<p>Loading User Information</p>
-					) : (
-						<p style={{ wordBreak: 'break-all' }}>{JSON.stringify(CaptainKirkBio)}</p>
-					)}
-				</section>
+const App = () => (
+	<React.Fragment>
+		<div className="flex__container">
+			<div className="save__date2" />
+			<div className="save__date">
+				<div className="save__date__text">
+					<h2>Save The</h2>
+					<h1 className="fancy__font">
+						<span className="font__alt">d</span>at<span className="font__alt">E</span>
+						<span className="fancy__font">Erin & Dave</span>
+					</h1>
+					<h2>September 7, 2019</h2>
+					<h3>Columbia, Maryland</h3>
+					<h3>More Details to Follow!</h3>
+				</div>
 			</div>
-		);
-	}
-}
+		</div>
+		<p>Wedding Stuff</p>
+	</React.Fragment>
+);
 
 console.log('process.env.VERSION', process.env.VERSION);
 console.log('process.env.PLATFORM', process.env.PLATFORM);
