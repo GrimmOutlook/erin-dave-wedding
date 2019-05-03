@@ -1,0 +1,14 @@
+.container__rsvp {
+	height: 60vh;
+	width: 100vw;
+	background-color: #a5190f;
+	text-align: center;
+	/*  Why is this needed to eliminate white gap between sections??!! */
+	margin: 0;
+	overflow: auto;
+}
+
+.container__rsvp h1 {
+	color: white;
+	font-size:	48px;
+}

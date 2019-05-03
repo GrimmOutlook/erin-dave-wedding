@@ -1,11 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import BrideGroom from './components/BrideGroom';
+import RSVP from './components/RSVP';
+
 import './mystyles.scss';
 
 const App = () => (
 	<React.Fragment>
-		<div className="flex__container">
+		<Nav />
+		<Hero />
+		<BrideGroom />
+		<RSVP />
+		{/* <div className="flex__container">
 			<div className="save__date2" />
 			<div className="save__date">
 				<div className="save__date__text">
@@ -19,8 +28,8 @@ const App = () => (
 					<h3>More Details to Follow!</h3>
 				</div>
 			</div>
-		</div>
-		<p>Wedding Stuff</p>
+		</div> */}
+		{/* <p>Wedding Stuff</p> */}
 	</React.Fragment>
 );
 

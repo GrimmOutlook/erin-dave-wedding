@@ -1,0 +1,13 @@
+section.hero {
+	width: 100vw;
+	height: 100vh;
+	overflow: auto;
+	margin: 0;
+	position: relative;
+	color: white;
+	/* background-image: url('/dist/images/top-right.jpg'); */
+	background-image: url('/images/hero-image.jpg');
+	background-repeat: no-repeat;
+	background-position: 25% 25%;
+	background-size: cover;
+}
