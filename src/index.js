@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import BrideGroom from './components/BrideGroom';
+import WhenWhere from './components/WhenWhere';
 import RSVP from './components/RSVP';
 
 import './mystyles.scss';
@@ -13,6 +14,7 @@ const App = () => (
 		<Nav />
 		<Hero />
 		<BrideGroom />
+		<WhenWhere />
 		<RSVP />
 		{/* <div className="flex__container">
 			<div className="save__date2" />

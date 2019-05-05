@@ -7,6 +7,7 @@ const BrideGroom = () => (
 		<div className="grid__bridegroom">
 			<div className="bride">
 				<h1>The Bride</h1>
+				<div className="photo__bride" />
 			</div>
 			<div className="groom">
 				<h1>The Groom</h1>

@@ -8,13 +8,31 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 15px;
+	height: 100%;
 	text-align: center;
 }
 
 .bride {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	background-color: #a5190f;
+}
 
+.photo__bride {
+	width: 80%;
+	height: 50%;
+	/* height: auto; */
+	border-radius: 50%;
+	border: 1px solid black;
+	background-image: url('/images/erin-dc.jpg');
+	background-repeat: no-repeat;
+	background-position: 25% 92%;
+	background-size: cover;
+	transform: rotate(90deg);
 }
 
 .groom {
-
+	grid-column-start: 2;
+	grid-column-end: 4;
+	background: blue;
 }
