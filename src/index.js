@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import BrideGroom from './components/BrideGroom';
 import WhenWhere from './components/WhenWhere';
+import Lodging from './components/Lodging';
 import RSVP from './components/RSVP';
 
 import './mystyles.scss';
@@ -15,6 +16,7 @@ const App = () => (
 		<Hero />
 		<BrideGroom />
 		<WhenWhere />
+		<Lodging />
 		<RSVP />
 		{/* <div className="flex__container">
 			<div className="save__date2" />

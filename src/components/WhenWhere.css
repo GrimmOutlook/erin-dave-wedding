@@ -1,9 +1,32 @@
 .container__whenwhere {
-	height: 80vh;
+	height: 130vh;
 	width: 100vw;
 	/* background-color: #a5190f; */
 	text-align: center;
 	/*  Why is this needed to eliminate white gap between sections??!! */
 	margin: 0;
 	overflow: auto;
+}
+
+.container__whenwhere h1:first-of-type {
+	font-size: 36px;
+}
+
+.container__timeline {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+.container__timeline div {
+	max-width: 100%;
+	height: auto;
+}
+
+.container__timeline h6 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
 }
