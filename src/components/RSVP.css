@@ -12,3 +12,7 @@
 	color: white;
 	font-size:	48px;
 }
+
+fieldset {
+	border: none;
+}
