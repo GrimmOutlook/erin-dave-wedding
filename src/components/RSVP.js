@@ -5,7 +5,7 @@ import './RSVP.css';
 const RSVP = () => (
 	<section id="rsvp" className="container__rsvp">
 		<h1>RSVP</h1>
-		<form name="contact" netlify>
+		<form name="contact" method="POST" data-netlify="true">
 			<p>Please RSVP by August 1st</p>
 			<fieldset>
 				<legend>Will You Be Attending?</legend>
