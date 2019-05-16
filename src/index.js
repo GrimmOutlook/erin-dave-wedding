@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import BrideGroom from './components/BrideGroom';
+import WeddingParty from './components/WeddingParty';
 import WhenWhere from './components/WhenWhere';
 import Lodging from './components/Lodging';
 import RSVP from './components/RSVP';
@@ -15,6 +16,7 @@ const App = () => (
 		<Nav />
 		<Hero />
 		<BrideGroom />
+		<WeddingParty />
 		<WhenWhere />
 		<Lodging />
 		<RSVP />

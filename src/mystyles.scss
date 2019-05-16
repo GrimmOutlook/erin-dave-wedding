@@ -14,8 +14,21 @@
   /* font-feature-settings: "cswh"; */
 }
 
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	/* Defines what 1rem is equal to */
+	/* Base font-size for entire page = 10px.  If px explicitly set here, then user cannot change default browser font-size to their liking.  62.5% = 10px / 16px */
+	font-size: 62.5%;
+}
+
 body {
-  margin: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .flex__container {

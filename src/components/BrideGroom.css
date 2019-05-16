@@ -31,8 +31,51 @@
 	transform: rotate(90deg);
 }
 
+.container__bride__photo {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+.wrapper__bride {
+	width: 15vw;
+	height: 30vh;
+	border: 1px solid black;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+.photo__bride__dt {
+	width: 20vw;
+	height: auto;
+	position: absolute;
+	left: -25px;
+	top: -21px;
+	text-align: center;
+}
+
 .groom {
 	grid-column-start: 2;
 	grid-column-end: 4;
 	background: blue;
+}
+
+.photo__groom__dt1 {
+	width: 20vw;
+	height: auto;
+	position: absolute;
+	left: -25px;
+	top: 24px;
+	text-align: center;
+}
+
+.photo__groom__dt2 {
+	width: 40vw;
+	height: auto;
+	position: absolute;
+	left: -125px;
+	top: -82px;
+	text-align: center;
 }
