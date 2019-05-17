@@ -1,5 +1,5 @@
 .container__rsvp {
-	height: 60vh;
+	height: 100vh;
 	width: 100vw;
 	background-color: #a5190f;
 	text-align: center;
@@ -10,9 +10,118 @@
 
 .container__rsvp h1 {
 	color: white;
-	font-size:	48px;
+	font-size:	4.2rem;
 }
 
-fieldset {
+.container__rsvp p {
+	color: white;
+	font-size: 2.1rem;
+}
+
+.field__attend,
+.field__name,
+.field__song {
 	border: none;
+	margin: 1rem auto;
+}
+
+.field__attend input {
+	/* display: block; */
+	/* float: left; */
+}
+
+label,
+legend {
+	font-size: 1.8rem;
+}
+
+.input__attend {
+	display: flex;
+	align-items: center;
+}
+
+/* .input__attend input[type=radio]:checked {
+	border: 5px solid #0DFF92;
+	height: 2rem;
+} */
+
+#yes,
+#no {
+	display: none;
+}
+
+.attend__btn {
+	height: 2.25rem;
+    width: 2.25rem;
+    border: 5px solid blue;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    /* top: -.4rem; */
+}
+
+.attend__btn::after {
+	content: "";
+    display: block;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #55c57a;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.input__attend label {
+	padding-left: 3.2rem;
+	position: relative;
+}
+
+#yes:checked ~ label .attend-btn::after,
+#no:checked ~ label .attend-btn::after {
+	opacity: 1;
+}
+
+.input__name,
+.input__song {
+	margin: 1.8rem 0;
+}
+
+.attend__group {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.input__song,
+.input__name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+}
+
+.input__song label,
+.input__name label {
+	margin-bottom: 0.25rem;
+	margin-left: 17.5%;
+}
+
+input {
+	height: 3.2rem;
+	width: 65%;
+	margin: 0 auto;
+	/* HOW DO YOU DO THIS?????!!!!!!!! border-radius: 2px; */
+}
+
+.btn__submit {
+	border: 1px solid rgb(82, 80, 80);
+	color: rgb(82, 80, 80);
+	border-radius: 5px;
+	padding: 0.5rem 2.5rem;
+	font-size: 2.4rem;
 }
