@@ -13,8 +13,8 @@
 	width: 7rem;
 	border-radius: 50%;
 	position: fixed;
-	top: 6rem;
-	right: 6rem;
+	top: 2.5rem;
+	right: 2.5rem;
 	z-index: 60;
 	box-shadow: 0 1rem 3rem grey;
 }
@@ -24,8 +24,8 @@
 	width: 6rem;
 	border-radius: 50%;
 	position: fixed;
-	top: 6.5rem;
-	right: 6.5rem;
+	top: 3rem;
+	right: 3rem;
 	background-image: radial-gradient(#a5190f 0%,#cc7e79 50%);
 	z-index: 50;
 	transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -134,6 +134,18 @@
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
 	top: 0;
 	transform: rotate(-135deg);
+}
+
+@media only screen and (min-width: 576px) {
+	.navigation__button {
+		top: 6rem;
+		right: 6rem;
+	}
+
+	.navigation__background {
+		top: 6.5rem;
+		right: 6.5rem;
+	}
 }
 
 @media only screen and (min-width: 768px) {
