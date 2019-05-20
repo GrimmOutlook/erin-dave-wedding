@@ -35,22 +35,76 @@ legend {
 	font-size: 1.8rem;
 }
 
-.input__attend {
+/* ---------------------------------------------------------------------------------------------------- */
+.legend__attend {
+	margin-bottom: 1rem;
+}
+
+.form__radio-group {
+	width: 48%;
+	display: inline-block;
+}
+
+input.form__radio-input {
+	/* width: 15%; */
+	display: none;
+	/* width: none; */
+}
+
+.form__radio-label {
+	font-size: 1.8rem;
+	cursor: pointer;
+	position: relative;
+	padding-left: 4.5rem;
+}
+
+.form__radio-button {
+	height: 3rem;
+	width: 3rem;
+	border: 5px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: -.4rem;
+}
+
+.form__radio-button::after {
+	content: "";
+    display: block;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.form__radio-input:checked ~ .form__radio-button::after {
+	opacity: 1;
+}
+
+
+/* .input__attend {
 	display: flex;
 	align-items: center;
-}
+} */
 
 /* .input__attend input[type=radio]:checked {
 	border: 5px solid #0DFF92;
 	height: 2rem;
 } */
 
-#yes,
+/* #yes,
 #no {
 	display: none;
-}
+} */
 
-.attend__btn {
+/* .attend__btn {
 	height: 2.25rem;
     width: 2.25rem;
     border: 5px solid blue;
@@ -58,10 +112,9 @@ legend {
     display: inline-block;
     position: absolute;
     left: 0;
-    /* top: -.4rem; */
-}
+} */
 
-.attend__btn::after {
+/* .attend__btn::after {
 	content: "";
     display: block;
     height: 1.3rem;
@@ -74,17 +127,20 @@ legend {
     background-color: #55c57a;
     opacity: 0;
     transition: opacity .2s;
-}
+} */
 
-.input__attend label {
+/* .input__attend label {
 	padding-left: 3.2rem;
 	position: relative;
-}
+} */
 
-#yes:checked ~ label .attend-btn::after,
+/* #yes:checked ~ label .attend-btn::after,
 #no:checked ~ label .attend-btn::after {
 	opacity: 1;
-}
+} */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
 
 .input__name,
 .input__song {
@@ -111,7 +167,7 @@ legend {
 	margin-left: 17.5%;
 }
 
-input {
+.input__bar {
 	height: 3.2rem;
 	width: 65%;
 	margin: 0 auto;
