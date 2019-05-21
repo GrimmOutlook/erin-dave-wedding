@@ -3,7 +3,7 @@ import React from 'react';
 import './WeddingParty.css';
 
 const WeddingParty = () => (
-	<section className="bride__groom">
+	<section className="bride__groom" id="weddingparty">
 		<div className="grid__bridegroom">
 			<div className="bride">
 				<h1>Bridesmaids</h1>

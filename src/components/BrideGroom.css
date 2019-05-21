@@ -36,15 +36,33 @@
 	justify-content: space-around;
 	flex-wrap: wrap;
 	text-align: left;
+	position: relative;
 }
 
 .wrapper__bride {
-	width: 15vw;
+	width: 20rem;
 	height: 30vh;
 	border: 1px solid black;
 	border-radius: 50%;
 	overflow: hidden;
-	position: relative;
+	/* position: relative; */
+	position: absolute;
+}
+
+.wrapper__bride:hover {
+	transform: scale(1.25);
+	transition: all 0.3s;
+	z-index: 10;
+}
+
+.wrapper__bride:nth-child(1) {
+	top: 2.5rem;
+	left: 2rem;
+}
+
+.wrapper__bride:nth-child(3) {
+	top: 2.5rem;
+	right: 2rem;
 }
 
 .photo__bride__dt {

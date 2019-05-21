@@ -6,12 +6,11 @@
 }
 
 .wrapper__bride {
-	width: 15vw;
+	width: 20rem;
 	height: 30vh;
 	border: 1px solid black;
 	border-radius: 50%;
 	overflow: hidden;
-	position: relative;
 }
 
 .photo__maid__dt1 {

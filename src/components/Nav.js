@@ -2,53 +2,64 @@ import React from 'react';
 
 import './Nav.css';
 
-const Nav = () => (
-	<div className="navigation">
-		<input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
-		<label htmlFor="navi-toggle" className="navigation__button">
-			<span className="navigation__icon">&nbsp;</span>
-		</label>
-		<div className="navigation__background">&nbsp;</div>
-		<nav className="navigation__nav">
-			<ul className="navigation__list">
-				<li className="navigation__item">
-					<a href="#bridegroom" className="navigation__link">
-						Bride & Groom
-					</a>
-				</li>
-				<li className="navigation__item">
-					<a href="#weddingparty" className="navigation__link">
-						Wedding Party
-					</a>
-				</li>
-				<li className="navigation__item">
-					<a href="#whenwhere" className="navigation__link">
-						When & Where
-					</a>
-				</li>
-				<li className="navigation__item">
-					<a href="#lodging" className="navigation__link">
-						Lodging
-					</a>
-				</li>
-				<li className="navigation__item">
-					<a href="#localactivities" className="navigation__link">
-						Local Activities
-					</a>
-				</li>
-				<li className="navigation__item">
-					<a href="#rsvp" className="navigation__link">
-						RSVP
-					</a>
-				</li>
-				<li className="navigation__item">
-					<a href="#registries" className="navigation__link">
-						Registries
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
-);
+class Nav extends React.Component {
+	state = {
+		mobileMenu: false,
+	};
+
+	toggleMobileMenu = () => this.setState(prevState => ({ mobileMenu: !prevState.mobileMenu }));
+
+	render() {
+		const { mobileMenu } = this.state;
+		return (
+			<div>
+				<input type="checkbox" className="navigation__checkbox" id="navi-toggle" onClick={this.toggleMobileMenu} checked={mobileMenu} />
+				<label htmlFor="navi-toggle" className="navigation__button">
+					<span className="navigation__icon">&nbsp;</span>
+				</label>
+				<div className={mobileMenu ? 'navigation__background' : 'navigation__background hide'}>&nbsp;</div>
+				<nav className={mobileMenu ? 'navigation__nav nav__desktop' : 'navigation__nav  nav__desktop hide'}>
+					<ul className="navigation__list">
+						<li className="navigation__item">
+							<a href="#bridegroom" className="navigation__link" onClick={this.toggleMobileMenu}>
+								Bride & Groom
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#weddingparty" className="navigation__link" onClick={this.toggleMobileMenu}>
+								Wedding Party
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#whenwhere" className="navigation__link" onClick={this.toggleMobileMenu}>
+								When & Where
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#lodging" className="navigation__link" onClick={this.toggleMobileMenu}>
+								Lodging
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#localactivities" className="navigation__link" onClick={this.toggleMobileMenu}>
+								Local Activities
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#rsvp" className="navigation__link" onClick={this.toggleMobileMenu}>
+								RSVP
+							</a>
+						</li>
+						<li className="navigation__item">
+							<a href="#registries" className="navigation__link" onClick={this.toggleMobileMenu}>
+								Registries
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		);
+	}
+}
 
 export default Nav;
