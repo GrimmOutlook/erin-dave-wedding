@@ -10,7 +10,7 @@ const WeddingParty = () => (
 				{/* <div className="photo__bride" /> */}
 				<div className="container__bride__photo">
 					<div className="wrapper__bride">
-						<img src="/images/misty.JPG" alt="Misty Maid-of-Honor" className="photo__maid__dt1" />
+						<img src="/images/erin-misty.JPG" alt="Misty Maid-of-Honor" className="photo__maid__dt1" />
 					</div>
 					<div className="wrapper__bride">
 						<img src="/images/erin-cristina2.jpg" alt="Erin Cristina" className="photo__maid__dt2" />

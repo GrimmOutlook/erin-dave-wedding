@@ -8,6 +8,7 @@ import WeddingParty from './components/WeddingParty';
 import WhenWhere from './components/WhenWhere';
 import Lodging from './components/Lodging';
 import RSVP from './components/RSVP';
+import Registry from './components/Registry';
 
 import './mystyles.scss';
 
@@ -20,6 +21,7 @@ const App = () => (
 		<WhenWhere />
 		<Lodging />
 		<RSVP />
+		<Registry />
 		{/* <div className="flex__container">
 			<div className="save__date2" />
 			<div className="save__date">

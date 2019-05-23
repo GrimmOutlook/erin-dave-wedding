@@ -47,6 +47,8 @@
 	overflow: hidden;
 	/* position: relative; */
 	position: absolute;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .wrapper__bride:hover {
@@ -66,12 +68,15 @@
 }
 
 .photo__bride__dt {
-	width: 20vw;
+	/* width: 20vw; */
 	height: auto;
-	position: absolute;
+	/* position: absolute;
 	left: -25px;
-	top: -21px;
+	top: -21px; */
 	text-align: center;
+	max-width: 100%;
+    width: 100%;
+    vertical-align: top;
 }
 
 .groom {
@@ -81,19 +86,25 @@
 }
 
 .photo__groom__dt1 {
-	width: 20vw;
+	/* width: 20vw; */
 	height: auto;
-	position: absolute;
+	/* position: absolute;
 	left: -25px;
-	top: 24px;
+	top: 24px; */
 	text-align: center;
+	max-width: 100%;
+    width: 100%;
+    vertical-align: top;
 }
 
 .photo__groom__dt2 {
-	width: 40vw;
+	/* width: 40vw; */
 	height: auto;
-	position: absolute;
+	/* position: absolute;
 	left: -125px;
-	top: -82px;
+	top: -82px; */
 	text-align: center;
+	max-width: 100%;
+    width: 100%;
+    vertical-align: top;
 }
