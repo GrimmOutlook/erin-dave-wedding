@@ -3,34 +3,36 @@ import React from 'react';
 import './WeddingParty.css';
 
 const WeddingParty = () => (
-	<section className="bride__groom" id="weddingparty">
-		<div className="grid__bridegroom">
-			<div className="bride">
-				<h1>Bridesmaids</h1>
-				{/* <div className="photo__bride" /> */}
-				<div className="container__bride__photo">
-					<div className="wrapper__bride">
-						<img src="/images/erin-misty.JPG" alt="Misty Maid-of-Honor" className="photo__maid__dt1" />
-					</div>
-					<div className="wrapper__bride">
-						<img src="/images/erin-cristina2.jpg" alt="Erin Cristina" className="photo__maid__dt2" />
-					</div>
-					<div className="wrapper__bride">
-						<img src="/images/erin-claire.jpg" alt="Erin Claire" className="photo__maid__dt3" />
+	<section className="bridesmaid" id="weddingparty">
+		<h1>Bridesmaids</h1>
+		<div className="bridesmaid__grid">
+			<div className="wrapper__bridesmaid">
+				<img src="/images/erin-misty.JPG" alt="Misty Maid-of-Honor" className="photo__maid1" />
+				<div className="personal__info">
+					<div className="name">Misty Cantwell</div>
+					<div className="title">Maid of Honor</div>
+					<div className="bio">
+						block of text about person. block of text about person. block of text about person. block of text about person.
 					</div>
 				</div>
 			</div>
-			<div className="groom">
-				<h1>Groomsmen</h1>
-				<div className="container__bride__photo">
-					<div className="wrapper__bride">
-						<img src="/images/dave-olympic (1).jpg" alt="Dave Olympic Mtns" className="photo__bride__dt" />
+			<div className="wrapper__bridesmaid">
+				<img src="/images/erin-cristina2.jpg" alt="Erin Cristina" className="photo__maid2" />
+				<div className="personal__info">
+					<div className="name">Cristina Snow</div>
+					<div className="title">Bridesmaid</div>
+					<div className="bio">
+						block of text about person. block of text about person. block of text about person. block of text about person.
 					</div>
-					<div className="wrapper__bride">
-						<img src="/images/dave-boat.jpg" alt="Dave on a boat" className="photo__bride__dt" />
-					</div>
-					<div className="wrapper__bride">
-						<img src="/images/erin-vegas.jpg" alt="Erin purple zebra" className="photo__bride__dt" />
+				</div>
+			</div>
+			<div className="wrapper__bridesmaid">
+				<img src="/images/erin-claire.jpg" alt="Erin Claire" className="photo__maid3" />
+				<div className="personal__info">
+					<div className="name">Claire MacNamara</div>
+					<div className="title">Bridesmaid</div>
+					<div className="bio">
+						block of text about person. block of text about person. block of text about person. block of text about person.
 					</div>
 				</div>
 			</div>
