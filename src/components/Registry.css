@@ -1,5 +1,5 @@
 .container__registry {
-	height: 100vh;
+	/* height: 100vh; */
 	width: 100vw;
 	/* background-color: #a5190f; */
 	text-align: center;
@@ -9,17 +9,85 @@
 }
 
 .registry__title {
-    font-size: 3rem;
+	font-size: 3rem;
+	padding: 1rem 0;
 }
 
 .registry__blurb {
-    font-size: 1.8rem;
+	font-size: 1.8rem;
+	padding-bottom: 2rem;
+	width: 85%;
+	margin: 0 auto;
 }
 
 .registry__label {
     font-size: 2.4rem;
 }
 
-.logo__charity {
+.description {
+	font-size: 1.4rem;
+	padding-bottom: 3rem;
 	width: 80%;
+	margin: 0 auto;
+}
+
+.logo__block {
+	padding-top: 1.5rem;
+}
+
+.logo__charity {
+	width: 40%;
+	height: auto;
+}
+
+.logo__charity-large {
+	width: 20%;
+	height: auto;
+}
+
+.divider {
+	border-bottom: 1px solid lightgray;
+	width: 90%;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 576px) {
+	.registry__label {
+		padding-bottom: 0.75rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.charity__block-left,
+	.charity__block-right {
+		display: flex;
+		width: 85%;
+		margin: 2rem auto;
+		align-items: center;
+	}
+
+	.charity__block-right {
+		flex-direction: row-reverse;
+	}
+
+	.logo__block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logo__charity {
+		width: 50%;
+		height: auto;
+	}
+
+	.logo__charity-large {
+		width: 35%;
+		height: auto;
+	}
+
+	.description {
+		padding-bottom: 0;
+	}
+
 }
