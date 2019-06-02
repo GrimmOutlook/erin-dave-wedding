@@ -1,23 +1,32 @@
 .bridesmaid > h1 {
-	font-size: 3.2rem;
+	font-size: 32px;
 	text-align: center;
-	margin: 1.5rem auto;
+	margin: 15px auto;
 }
 
 .wrapper__bridesmaid {
-	/* margin: 6rem; */
-	padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding: 0 30px;
+}
+
+.wrapper__image {
+    height: 160px;
+    width: 160px;
+    margin: 10px auto;
 }
 
 .photo__maid1,
 .photo__maid2,
 .photo__maid3 {
-	margin: 0 auto 2rem;
 	display: block;
 	border-radius: 50%;
-	/* height: 18rem; */
-	height: auto;
-	width: 18rem;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,1);
 }
 
 .photo__maid1:hover {
@@ -33,32 +42,35 @@
 }
 
 .personal__info {
-	margin-bottom: 3.5rem;
-	text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .name {
-	font-size: 2.4rem;
+	font-size: 24px;
 }
 
 .title {
-	font-size: 1.8rem;
-	margin-top: 0.25rem;
+	font-size: 18px;
+	margin-top: 2.5px;
 }
 
 .bio {
-	font-size: 1.4rem;
-	max-width: 60%;
-	margin: 1rem auto;
+	font-size: 14px;
+	max-width: 80%;
+	margin: 10px auto;
 }
 
 @media only screen and (min-width: 576px) {
 	.wrapper__bridesmaid {
-		/* margin: 6rem; */
-		padding: 0 3rem;
-		display: flex;
+		padding: 0 30px;
+        display: flex;
+        flex-direction: row;
 		align-items: center;
-	}
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -78,10 +90,15 @@
 }
 
 @media only screen and (min-width: 992px) {
+    .wrapper__image {
+        height: 220px;
+		width: 220px;
+    }
+
 	.photo__maid1,
 	.photo__maid2,
 	.photo__maid3 {
-		height: 24rem;
-		width: 24rem;
+		height: 200px;
+		width: 200px;
 	}
 }
