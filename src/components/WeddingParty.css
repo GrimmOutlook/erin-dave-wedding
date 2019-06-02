@@ -20,7 +20,10 @@
 
 .photo__maid1,
 .photo__maid2,
-.photo__maid3 {
+.photo__maid3,
+.photo__groomsman1,
+.photo__groomsman2,
+.photo__groomsman3 {
 	display: block;
 	border-radius: 50%;
     height: 160px;
@@ -39,6 +42,18 @@
 
 .photo__maid3:hover {
 	content: url('/images/claire.jpg');
+}
+
+.photo__groomsman1:hover {
+	content: url('/images/dave-aaron2.jpg');
+}
+
+.photo__groomsman2:hover {
+	content: url('/images/dave-sean.jpg');
+}
+
+.photo__groomsman3:hover {
+	content: url('/images/dave-boat.jpg');
 }
 
 .personal__info {
@@ -97,7 +112,10 @@
 
 	.photo__maid1,
 	.photo__maid2,
-	.photo__maid3 {
+	.photo__maid3,
+	.photo__groomsman1,
+	.photo__groomsman2,
+	.photo__groomsman3 {
 		height: 200px;
 		width: 200px;
 	}
