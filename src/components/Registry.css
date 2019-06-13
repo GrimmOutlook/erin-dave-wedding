@@ -20,12 +20,25 @@
 	margin: 0 auto;
 }
 
+.registry__blurb a {
+	display: inline-block;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	padding: 1.5rem 0;
+}
+
+.registry__blurb a:hover {
+	transform: scale(1.25);
+	transition: all 0.3s;
+}
+
 .registry__label {
     font-size: 2.4rem;
 }
 
 .description {
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	padding-bottom: 3rem;
 	width: 80%;
 	margin: 0 auto;

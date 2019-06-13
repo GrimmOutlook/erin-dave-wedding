@@ -1,9 +1,50 @@
 .container__lodging {
-	height: 100vh;
+	/* height: 100vh; */
 	width: 100vw;
 	/* background-color: #a5190f; */
 	text-align: center;
 	/*  Why is this needed to eliminate white gap between sections??!! */
-	margin: 0;
-	overflow: auto;
+	/* margin: 2rem; */
+	/* overflow: auto; */
+}
+
+.lodging__title {
+	font-size: 3.2rem;
+}
+
+.lodging__title ~ p {
+	font-size: 2.4rem;
+}
+
+.lodging__logo {
+	margin: 0.75rem 0;
+}
+
+.lodging__description {
+	font-size: 1.8rem;
+	padding: 1rem 3rem;
+}
+
+.lodging__description p {
+	padding: 2rem 0;
+}
+
+.lodging__description a {
+	display: inline-block;
+	color: blue;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	padding: 1.5rem 0;
+}
+
+.lodging__description a:hover {
+	transform: scale(1.25);
+	transition: all 0.3s;
+}
+
+@media only screen and (min-width: 768px) {
+	.lodging__title ~ img {
+		height: 16.5rem;
+	}
 }

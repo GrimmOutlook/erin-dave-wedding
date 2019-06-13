@@ -1,110 +1,133 @@
-.bride__groom {
-	height: 100vh;
-	width: 100vw;
-
-}
-
-.grid__bridegroom {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 15px;
-	height: 100%;
+.bridegroom > h1 {
+	font-size: 32px;
 	text-align: center;
+	margin: 15px auto;
 }
 
-.bride {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	background-color: #a5190f;
+.wrapper__bridegroom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding: 0;
+}
+
+.wrapper__image {
+    height: 160px;
+    width: 160px;
+    margin: 10px auto;
+}
+
+.photo__maid1,
+.photo__maid2,
+.photo__maid3,
+.photo__groomsman1,
+.photo__groomsman2,
+.photo__groomsman3 {
+	display: block;
+	border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,1);
+}
+
+.photo__maid1:hover {
+	content: url('/images/misty.JPG');
+}
+
+.photo__maid2:hover {
+	content: url('/images/cristina.jpg');
+}
+
+.photo__maid3:hover {
+	content: url('/images/claire.jpg');
+}
+
+.photo__groomsman1:hover {
+	content: url('/images/aaron.jpg');
+}
+
+.photo__groomsman2:hover {
+	content: url('/images/dave-sean.jpg');
+}
+
+.photo__groomsman3:hover {
+	content: url('/images/dave-boat.jpg');
+}
+
+.personal__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+	font-size: 24px;
+}
+
+.title {
+	font-size: 18px;
+	margin-top: 2.5px;
+}
+
+.bio {
+	font-size: 14px;
+	max-width: 80%;
+	margin: 10px auto;
 }
 
 .photo__bride {
-	width: 80%;
-	height: 50%;
-	/* height: auto; */
-	border-radius: 50%;
-	border: 1px solid black;
-	background-image: url('/images/erin-dc.jpg');
-	background-repeat: no-repeat;
-	background-position: 25% 92%;
-	background-size: cover;
-	transform: rotate(90deg);
-}
-
-.container__bride__photo {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	text-align: left;
-	position: relative;
-}
-
-.wrapper__bride {
-	width: 20rem;
-	height: 30vh;
-	border: 1px solid black;
-	border-radius: 50%;
-	overflow: hidden;
-	/* position: relative; */
-	position: absolute;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-.wrapper__bride:hover {
-	transform: scale(1.25);
-	transition: all 0.3s;
-	z-index: 10;
-}
-
-.wrapper__bride:nth-child(1) {
-	top: 2.5rem;
-	left: 2rem;
-}
-
-.wrapper__bride:nth-child(3) {
-	top: 2.5rem;
-	right: 2rem;
-}
-
-.photo__bride__dt {
-	/* width: 20vw; */
+	display: block;
+	/* border-radius: 50%; */
+    /* height: 160px; */
+	/* width: 160px; */
 	height: auto;
-	/* position: absolute;
-	left: -25px;
-	top: -21px; */
-	text-align: center;
-	max-width: 100%;
-    width: 100%;
-    vertical-align: top;
+	width: 100%;
+    margin: 0 auto;
+    /* box-shadow: 2px 2px 5px 0px rgba(0,0,0,1); */
 }
 
-.groom {
-	grid-column-start: 2;
-	grid-column-end: 4;
-	background: blue;
+@media only screen and (min-width: 576px) {
+	.wrapper__bridegroom {
+		/* padding: 0 30px; */
+        display: flex;
+        flex-direction: row;
+		align-items: center;
+    }
 }
 
-.photo__groom__dt1 {
-	/* width: 20vw; */
-	height: auto;
-	/* position: absolute;
-	left: -25px;
-	top: 24px; */
-	text-align: center;
-	max-width: 100%;
-    width: 100%;
-    vertical-align: top;
+@media only screen and (min-width: 768px) {
+	.bridegroom__grid {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.wrapper__bridegroom {
+		flex-direction: column;
+	}
+
+	.bio {
+		max-width: 90%;
+	}
 }
 
-.photo__groom__dt2 {
-	/* width: 40vw; */
-	height: auto;
-	/* position: absolute;
-	left: -125px;
-	top: -82px; */
-	text-align: center;
-	max-width: 100%;
-    width: 100%;
-    vertical-align: top;
+@media only screen and (min-width: 992px) {
+    .wrapper__image {
+        height: 220px;
+		width: 220px;
+    }
+
+	.photo__maid1,
+	.photo__maid2,
+	.photo__maid3,
+	.photo__groomsman1,
+	.photo__groomsman2,
+	.photo__groomsman3 {
+		height: 200px;
+		width: 200px;
+	}
 }

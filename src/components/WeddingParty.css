@@ -45,7 +45,7 @@
 }
 
 .photo__groomsman1:hover {
-	content: url('/images/dave-aaron2.jpg');
+	content: url('/images/aaron.jpg');
 }
 
 .photo__groomsman2:hover {
@@ -53,7 +53,7 @@
 }
 
 .photo__groomsman3:hover {
-	content: url('/images/dave-boat.jpg');
+	content: url('/images/sean.jpg');
 }
 
 .personal__info {
@@ -77,6 +77,17 @@
 	font-size: 14px;
 	max-width: 80%;
 	margin: 10px auto;
+}
+
+.photo__bride {
+	display: block;
+	/* border-radius: 50%; */
+    /* height: 160px; */
+	/* width: 160px; */
+	height: auto;
+	width: 100%;
+    margin: 0 auto;
+    /* box-shadow: 2px 2px 5px 0px rgba(0,0,0,1); */
 }
 
 @media only screen and (min-width: 576px) {

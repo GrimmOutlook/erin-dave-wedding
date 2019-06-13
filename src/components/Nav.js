@@ -36,13 +36,13 @@ class Nav extends React.Component {
 							</a>
 						</li>
 						<li className="navigation__item">
-							<a href="#lodging" className="navigation__link" onClick={this.toggleMobileMenu}>
-								Lodging
+							<a href="#timeline" className="navigation__link" onClick={this.toggleMobileMenu}>
+								Timeline
 							</a>
 						</li>
 						<li className="navigation__item">
-							<a href="#localactivities" className="navigation__link" onClick={this.toggleMobileMenu}>
-								Local Activities
+							<a href="#lodging" className="navigation__link" onClick={this.toggleMobileMenu}>
+								Lodging
 							</a>
 						</li>
 						<li className="navigation__item">

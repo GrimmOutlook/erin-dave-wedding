@@ -1,5 +1,5 @@
 .container__whenwhere {
-	height: 130vh;
+	/* height: 130vh; */
 	width: 100vw;
 	/* background-color: #a5190f; */
 	text-align: center;
@@ -9,24 +9,61 @@
 }
 
 .container__whenwhere h1:first-of-type {
-	font-size: 36px;
+	font-size: 3.6rem;
+	margin-bottom: 1.25rem;
+}
+
+.container__whenwhere h2 {
+	font-size: 2.4rem;
+	margin-bottom: 1.25rem;
+}
+
+.container__whenwhere h3 {
+	font-size: 1.8rem;
+	margin-bottom: 1.25rem;
+}
+
+.container__whenwhere .divider {
+	border-bottom: 1px solid lightgray;
+	width: 90%;
+	margin: 2rem auto;
+}
+
+.timeline__title {
+	font-size: 3.2rem;
 }
 
 .container__timeline {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
-	padding: 25px;
+	justify-content: center;
+	padding: 1rem 3.5rem 1rem;
 }
 
 .container__timeline div {
 	max-width: 100%;
 	height: auto;
+	padding: 1rem 2rem;
+}
+
+.container__timeline p {
+	font-size: 1.8rem;
 }
 
 .container__timeline h6 {
-	font-size: 14px;
+	font-size: 1.6rem;
 	font-weight: bold;
 	margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.container__timeline img {
+		/* max-width: 100%; */
+		height: 10rem;
+	}
+
+	.container__timeline div {
+		padding: 0 2rem;
+	}
 }

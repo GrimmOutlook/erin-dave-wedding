@@ -6,11 +6,8 @@ const Banner = () => (
 	<div className="banner__container">
 		<h1>Erin & Dave</h1>
 		<h3>Columbia, MD</h3>
-		<p>
-			September 7, 2019
-			<br />
-			4:30pm
-		</p>
+		<p>September 7, 2019 - 4:30pm</p>
+		<p>#HappilyEverGrimm</p>
 		<a href="#rsvp" className="button__rsvp">
 			RSVP
 		</a>

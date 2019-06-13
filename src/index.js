@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import BrideGroom from './components/BrideGroom';
+import OurStory from './components/OurStory';
 import WeddingParty from './components/WeddingParty';
 import WhenWhere from './components/WhenWhere';
 import Lodging from './components/Lodging';
@@ -48,7 +49,7 @@ const GROOMSMEN = [
 		name: 'Aaron Stearns',
 		title: 'Best Man',
 		bio: 'block of text about person. block of text about person. block of text about person. block of text about person.',
-		mainImage: '/images/dave-aaron.jpg',
+		mainImage: '/images/dave-aaron2.jpg',
 		alt: 'Aaron - Best Man',
 		hoverImageClass: 'photo__groomsman1',
 	},
@@ -77,6 +78,7 @@ const App = () => (
 		<Nav />
 		<Hero />
 		<BrideGroom />
+		<OurStory />
 		<WeddingParty weddingParty={BRIDESMAIDS} />
 		<WeddingParty weddingParty={GROOMSMEN} />
 		<WhenWhere />

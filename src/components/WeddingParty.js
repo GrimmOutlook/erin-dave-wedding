@@ -7,7 +7,7 @@ const WeddingParty = props => (
 		<h1>{props.weddingParty[0].id === 1 ? 'Bridesmaids' : 'Groomsmen'}</h1>
 		<div className="bridesmaid__grid">
 			{props.weddingParty.map(item => (
-				<div className="wrapper__bridesmaid">
+				<div className="wrapper__bridesmaid" key={item.name}>
 					<div className="wrapper__image">
 						<img src={item.mainImage} alt={item.alt} className={item.hoverImageClass} />
 					</div>

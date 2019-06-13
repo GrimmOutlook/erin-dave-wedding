@@ -3,27 +3,48 @@ import React from 'react';
 import './BrideGroom.css';
 
 const BrideGroom = () => (
-	<section className="bride__groom">
-		<div className="grid__bridegroom">
-			<div className="bride">
-				<h1>The Bride</h1>
-				{/* <div className="photo__bride" /> */}
-				<div className="container__bride__photo">
-					<div className="wrapper__bride">
-						<img src="/images/erin-primantis.jpg" alt="Erin Primantis" className="photo__bride__dt" />
+	<>
+		<section className="bridegroom" id="bridegroom">
+			<h1>The Bride</h1>
+			<div className="bridegroom__grid">
+				<div className="wrapper__bridegroom">
+					{/* <div className="wrapper__image"> */}
+					<div>
+						<img src="/images/erin-blossoms.jpg" alt="Erin, the bride" className="photo__bride" />
+					</div>
+					<div className="personal__info">
+						<div className="name">Erin Cantwell</div>
+						<div className="bio">
+							Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info.
+							Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info.
+							Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info.
+							Bio info, Bio Info, Bio Info.
+						</div>
 					</div>
 				</div>
 			</div>
-			<div className="groom">
-				<h1>The Groom</h1>
-				<div className="container__bride__photo">
-					<div className="wrapper__bride">
-						<img src="/images/dave-olympic (1).jpg" alt="Dave Olympic Mtns" className="photo__groom__dt1" />
+		</section>
+		<section className="bridegroom">
+			<h1>The Groom</h1>
+			<div className="bridegroom__grid">
+				<div className="wrapper__bridegroom">
+					{/* <div className="wrapper__image"> */}
+					<div>
+						<img src="/images/dave-olympic.jpg" alt="Dave, the groom" className="photo__bride" />
+					</div>
+					<div className="personal__info">
+						<div className="name">Dave Grimm</div>
+						<div className="bio">
+							Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info.
+							Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info.
+							Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info. Bio info, Bio Info, Bio Info.
+							Bio info, Bio Info, Bio Info.
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	</>
 );
 
 export default BrideGroom;
