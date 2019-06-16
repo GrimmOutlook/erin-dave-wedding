@@ -30,6 +30,11 @@
 	margin-bottom: 1.5rem;
 }
 
+.button__rsvp:hover {
+	background-color: green;
+	color: white;
+}
+
 @media only screen and (min-width: 768px) {
 	.banner__container {
 		position: absolute;

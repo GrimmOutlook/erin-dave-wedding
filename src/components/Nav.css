@@ -225,7 +225,7 @@
 	}
 
 	.navigation__checkbox:checked ~ .navigation__nav {
-		display: none;
+		display: block;
 	}
 
 		/* ---------------- Hamburger Icon ------------------------ */

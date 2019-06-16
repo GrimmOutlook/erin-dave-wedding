@@ -38,6 +38,10 @@
 	padding: 1.5rem 0;
 }
 
+.lodging__description a:visited {
+	color: blue;
+}
+
 .lodging__description a:hover {
 	transform: scale(1.25);
 	transition: all 0.3s;

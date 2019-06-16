@@ -3,7 +3,7 @@ import React from 'react';
 import './Lodging.css';
 
 const Lodging = () => (
-	<section className="container__lodging">
+	<section id="lodging" className="container__lodging">
 		<h1 className="lodging__title">Lodging</h1>
 		<img src="/images/dt-logo.gif" alt="DoubleTree hotel logo" className="lodging__logo" />
 		<p>DoubleTree Hotel Columbia</p>

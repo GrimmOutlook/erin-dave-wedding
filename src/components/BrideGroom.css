@@ -108,6 +108,7 @@
 
 	.wrapper__bridegroom {
 		flex-direction: column;
+		/* height: 75vh; */
 	}
 
 	.bio {

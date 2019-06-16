@@ -9,7 +9,8 @@ const WeddingParty = props => (
 			{props.weddingParty.map(item => (
 				<div className="wrapper__bridesmaid" key={item.name}>
 					<div className="wrapper__image">
-						<img src={item.mainImage} alt={item.alt} className={item.hoverImageClass} />
+						{/* <img src={item.mainImage} alt={item.alt} className={item.hoverImageClass} /> */}
+						<div className={item.hoverImageClass} />
 					</div>
 					<div className="personal__info">
 						<div className="name">{item.name}</div>

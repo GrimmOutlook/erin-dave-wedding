@@ -37,7 +37,7 @@ const BRIDESMAIDS = [
 		name: 'Claire MacNamara',
 		title: 'Bridesmaid',
 		bio: 'block of text about person. block of text about person. block of text about person. block of text about person.',
-		mainImage: '/images/erin-claire.jpg',
+		mainImage: '/images/erin-claire (3).jpg',
 		alt: 'Claire - Bridesmaid',
 		hoverImageClass: 'photo__maid3',
 	},
