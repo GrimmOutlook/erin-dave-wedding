@@ -10,7 +10,9 @@ const BrideGroom = () => (
 				<div className="wrapper__bridegroom">
 					{/* <div className="wrapper__image"> */}
 					<div>
-						<img src="/images/erin-blossoms-crop.jpg" alt="Erin, the bride" className="photo__bride" />
+						{/* <img src="/images/erin-blossoms-crop.jpg" alt="Erin, the bride" className="photo__bride" /> */}
+						{/* <img src="/images/erin-dc-stylish.jpg" alt="Erin, the bride" className="photo__bride" /> */}
+						<img src="/images/erin-paris.jpg" alt="Erin, the bride" className="photo__bride" />
 					</div>
 					<div className="personal__info">
 						<div className="name">Erin Cantwell</div>

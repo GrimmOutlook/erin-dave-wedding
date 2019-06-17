@@ -10,6 +10,7 @@ import WhenWhere from './components/WhenWhere';
 import Lodging from './components/Lodging';
 import RSVP from './components/RSVP';
 import Registry from './components/Registry';
+import Footer from './components/Footer';
 
 import './mystyles.scss';
 
@@ -85,6 +86,7 @@ const App = () => (
 		<Lodging />
 		<RSVP />
 		<Registry />
+		<Footer />
 	</React.Fragment>
 );
 

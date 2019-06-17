@@ -1,3 +1,8 @@
+.engage__container {
+	display: flex;
+	align-items: center;
+}
+
 .ring__image__container {
 	/* width: auto; */
 	width: 80vw;
