@@ -1,7 +1,7 @@
 .bridesmaid > h1 {
-	font-size: 32px;
+	font-size: 3.2rem;
 	text-align: center;
-	margin: 15px auto;
+	margin: 1.5rem auto;
 }
 
 .wrapper__bridesmaid {
@@ -9,13 +9,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-	padding: 0 30px;
+	padding: 0 3rem;
 }
 
 .wrapper__image {
-    height: 180px;
-    width: 180px;
-	margin: 10px auto;
+    height: 18rem;
+    width: 18rem;
+	margin: 1rem auto;
 	text-align: center;
 	/* overflow: hidden; */
 }
@@ -26,20 +26,11 @@
 .photo__groomsman1,
 .photo__groomsman2,
 .photo__groomsman3 {
-	/* display: block; */
-	/* border-radius: 50%; */
-	/* width: 100%; */
-	/* height: 100%; */
-	/* object-fit: contain; */
-    /* height: 160px; */
-    /* width: 160px; */
-    /* margin: 0 auto; */
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,1);
-	width: 160px;
-	height: 160px;
+	width: 16rem;
+	height: 16rem;
 	display: inline-block;
 	border-radius: 50%;
-	/* background-image: url('/images/erin-claire (3).jpg'); */
 	background-size: cover;
 	background-position: center;
 }
@@ -57,7 +48,7 @@
 }
 
 .photo__groomsman1 {
-	background-image: url('/images/dave-aaron2-small10.jpg');
+	background-image: url('/images/dave-aaron-wedding.jpg');
 }
 
 .photo__groomsman2 {
@@ -101,34 +92,30 @@
 }
 
 .name {
-	font-size: 24px;
+	font-size: 2.8rem;
 }
 
 .title {
-	font-size: 18px;
+	font-size: 2.2rem;
 	margin-top: 2.5px;
 }
 
 .bio {
-	font-size: 14px;
+	font-size: 1.8rem;
 	max-width: 80%;
-	margin: 10px auto;
+	margin: 1rem auto;
 }
 
 .photo__bride {
 	display: block;
-	/* border-radius: 50%; */
-    /* height: 160px; */
-	/* width: 160px; */
 	height: auto;
 	width: 100%;
     margin: 0 auto;
-    /* box-shadow: 2px 2px 5px 0px rgba(0,0,0,1); */
 }
 
 @media only screen and (min-width: 576px) {
 	.wrapper__bridesmaid {
-		padding: 0 30px;
+		padding: 0 3rem;
         display: flex;
         flex-direction: row;
 		align-items: center;
@@ -153,8 +140,8 @@
 
 @media only screen and (min-width: 992px) {
     .wrapper__image {
-        height: 220px;
-		width: 220px;
+        height: 22rem;
+		width: 22rem;
     }
 
 	.photo__maid1,
@@ -163,7 +150,7 @@
 	.photo__groomsman1,
 	.photo__groomsman2,
 	.photo__groomsman3 {
-		height: 200px;
-		width: 200px;
+		height: 20rem;
+		width: 20rem;
 	}
 }

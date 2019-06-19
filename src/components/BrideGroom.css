@@ -79,6 +79,10 @@
 	margin: 10px auto;
 }
 
+.bio__dave {
+	text-decoration: line-through;
+}
+
 .photo__bride {
 	display: block;
 	/* border-radius: 50%; */

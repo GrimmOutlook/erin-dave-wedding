@@ -6,7 +6,7 @@ const Lodging = () => (
 	<section id="lodging" className="container__lodging">
 		<h1 className="lodging__title">Lodging</h1>
 		<img src="/images/dt-logo.gif" alt="DoubleTree hotel logo" className="lodging__logo" />
-		<p>DoubleTree Hotel Columbia</p>
+		<p>DoubleTree Hotel Columbia - 5485 Twin Knolls Rd, Columbia, MD 21045</p>
 		<div className="lodging__description">
 			<p>
 				For your comfort and convenience we&apos;ve made arrangements at The DoubleTree Hotel Columbia. A limited number of rooms have been
