@@ -58,6 +58,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+	.container__timeline {
+		justify-content: space-between;
+	}
+
 	.container__timeline img {
 		/* max-width: 100%; */
 		height: 10rem;

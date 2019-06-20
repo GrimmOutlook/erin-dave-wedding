@@ -76,7 +76,7 @@
 }
 
 .photo__groomsman2:hover {
-	content: url('/images/dave-sean.jpg');
+	/* content: url('/images/dave-sean.jpg'); */
 }
 
 .photo__groomsman3:hover {

@@ -3,7 +3,7 @@ import React from 'react';
 import './Registry.css';
 
 const Registry = () => (
-	<section className="container__registry" id="registry">
+	<section className="container__registry" id="registries">
 		<h1 className="registry__title">Registries</h1>
 		<p className="registry__blurb">
 			We have chosen not to regiser for wedding gifts. However, should you insist on making a monetary contribution, we would invite you to make

@@ -17,11 +17,11 @@ const BrideGroom = () => (
 					<div className="personal__info">
 						<div className="name">Erin Cantwell</div>
 						<div className="bio">
-							Erin was born in Trenton, NJ and after living in five different states, spent her childhood in the Tampa area. After
-							graduating with a degree in Wildlife Ecology from Florida University, she moved to Pensacola to work at the Gulf Breeze
+							Erin was born in Trenton, NJ and after living in seven different states, spent her childhood in the Tampa area. After
+							graduating with a degree in Wildlife Ecology from University of Florida, she moved to Pensacola to work at the Gulf Breeze
 							Zoo. Since moving to Baltimore in 2011, she has become an Animal Collections Manager at the Maryland Zoo. She enjoys
 							hiking, traveling, solving puzzles, hanging out with friends, and the occassional glass of Muscato. Her two wonderful
-							parents - Jay and Rose - along with her sister, Misty will be in attendance at the wedding.
+							parents - Jay and Rosemary - along with her sister, Misty will be in attendance at the wedding.
 						</div>
 					</div>
 				</div>
