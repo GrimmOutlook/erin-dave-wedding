@@ -1,7 +1,7 @@
 .bridegroom > h1 {
-	font-size: 32px;
+	font-size: 3.2rem;
 	text-align: center;
-	margin: 15px auto;
+	margin: 1.5rem auto;
 }
 
 .wrapper__bridegroom {
@@ -13,50 +13,12 @@
 }
 
 .wrapper__image {
-    height: 160px;
-    width: 160px;
-    margin: 10px auto;
+    height: 16rem;
+    width: 16rem;
+    margin: 1rem auto;
 }
 
-.photo__maid1,
-.photo__maid2,
-.photo__maid3,
-.photo__groomsman1,
-.photo__groomsman2,
-.photo__groomsman3 {
-	display: block;
-	border-radius: 50%;
-    height: 160px;
-    width: 160px;
-    margin: 0 auto;
-    box-shadow: 2px 2px 5px 0px rgba(0,0,0,1);
-}
-
-.photo__maid1:hover {
-	content: url('/images/misty.JPG');
-}
-
-.photo__maid2:hover {
-	content: url('/images/cristina.jpg');
-}
-
-.photo__maid3:hover {
-	content: url('/images/claire.jpg');
-}
-
-.photo__groomsman1:hover {
-	content: url('/images/aaron.jpg');
-}
-
-.photo__groomsman2:hover {
-	content: url('/images/dave-sean.jpg');
-}
-
-.photo__groomsman3:hover {
-	content: url('/images/dave-boat.jpg');
-}
-
-.personal__info {
+.bio__container {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -64,19 +26,15 @@
     justify-content: center;
 }
 
-.name {
-	font-size: 24px;
+.name__bridegroom {
+	margin-top: 1rem;
+	font-size: 2.4rem;
 }
 
-.title {
-	font-size: 18px;
-	margin-top: 2.5px;
-}
-
-.bio {
-	font-size: 14px;
+.bio__bridegroom {
+	font-size: 1.8rem;
 	max-width: 80%;
-	margin: 10px auto;
+	margin: 1rem auto;
 }
 
 .bio__dave {
@@ -85,18 +43,13 @@
 
 .photo__bride {
 	display: block;
-	/* border-radius: 50%; */
-    /* height: 160px; */
-	/* width: 160px; */
 	height: auto;
 	width: 100%;
     margin: 0 auto;
-    /* box-shadow: 2px 2px 5px 0px rgba(0,0,0,1); */
 }
 
 @media only screen and (min-width: 576px) {
 	.wrapper__bridegroom {
-		/* padding: 0 30px; */
         display: flex;
         flex-direction: row;
 		align-items: center;
@@ -112,27 +65,9 @@
 
 	.wrapper__bridegroom {
 		flex-direction: column;
-		/* height: 75vh; */
 	}
 
-	.bio {
+	.bio__bridegroom {
 		max-width: 90%;
-	}
-}
-
-@media only screen and (min-width: 992px) {
-    .wrapper__image {
-        height: 220px;
-		width: 220px;
-    }
-
-	.photo__maid1,
-	.photo__maid2,
-	.photo__maid3,
-	.photo__groomsman1,
-	.photo__groomsman2,
-	.photo__groomsman3 {
-		height: 200px;
-		width: 200px;
 	}
 }

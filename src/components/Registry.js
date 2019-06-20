@@ -5,7 +5,7 @@ import './Registry.css';
 const Registry = () => (
 	<section className="container__registry" id="registries">
 		<h1 className="registry__title">Registries</h1>
-		<p className="registry__blurb">
+		<div className="registry__blurb">
 			We have chosen not to regiser for wedding gifts. However, should you insist on making a monetary contribution, we would invite you to make
 			a donation to one of the four charities below through our Good Beginning website, which will track all contributions and make the
 			donations on your behalf. You can do so by clicking the logo below or by clicking any of the listed charities.
@@ -24,7 +24,7 @@ const Registry = () => (
 				<img src="/images/honeyfund-logo.svg" alt="Honeyfund logo" className="logo__honeyfund" />
 				<p className="registry__label">Honeymoon in Finland</p>
 			</a>
-		</p>
+		</div>
 		<div className="divider" />
 		<a href="https://thegoodbeginning.com/registries/david-grimm-erin-cantwell/" target="_blank" rel="noopener noreferrer">
 			<div className="charity__block-left">

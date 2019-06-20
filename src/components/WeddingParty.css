@@ -125,12 +125,14 @@
 @media only screen and (min-width: 768px) {
 	.bridesmaid__grid {
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		justify-content: space-between;
 	}
 
 	.wrapper__bridesmaid {
 		flex-direction: column;
+		flex-grow: 1;
+		flex-basis: 0;
 	}
 
 	.bio {

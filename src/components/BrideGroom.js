@@ -8,20 +8,17 @@ const BrideGroom = () => (
 			<h1>The Bride</h1>
 			<div className="bridegroom__grid">
 				<div className="wrapper__bridegroom">
-					{/* <div className="wrapper__image"> */}
 					<div>
-						{/* <img src="/images/erin-dc-wide.jpg" alt="Erin, the bride" className="photo__bride" /> */}
-						{/* <img src="/images/erin-dc-stylish.jpg" alt="Erin, the bride" className="photo__bride" /> */}
 						<img src="/images/erin-paris.jpg" alt="Erin, the bride" className="photo__bride" />
 					</div>
-					<div className="personal__info">
-						<div className="name">Erin Cantwell</div>
-						<div className="bio">
-							Erin was born in Trenton, NJ and after living in seven different states, spent her childhood in the Tampa area. After
-							graduating with a degree in Wildlife Ecology from University of Florida, she moved to Pensacola to work at the Gulf Breeze
-							Zoo. Since moving to Baltimore in 2011, she has become an Animal Collections Manager at the Maryland Zoo. She enjoys
-							hiking, traveling, solving puzzles, hanging out with friends, and the occassional glass of Muscato. Her two wonderful
-							parents - Jay and Rosemary - along with her sister, Misty will be in attendance at the wedding.
+					<div className="bio__container">
+						<div className="name__bridegroom">Erin Cantwell</div>
+						<div className="bio__bridegroom">
+							Erin was born in Trenton, NJ and after living in seven different states, spent most of her childhood in the Tampa area.
+							After After graduating with a degree in Wildlife Ecology from the University of Florida, she moved to Pensacola to work at
+							the the the Gulf Breeze Zoo. Since moving to Baltimore in 2011, she has become an Animal Collections Manager at the
+							Maryland hiking, traveling, solving puzzles, hanging out with friends, and the occassional glass of Muscato. Her two
+							wonderful parents - Jay and Rosemary - along with her sister, Misty will be in attendance at the wedding.
 						</div>
 					</div>
 				</div>
@@ -31,13 +28,12 @@ const BrideGroom = () => (
 			<h1>The Groom</h1>
 			<div className="bridegroom__grid">
 				<div className="wrapper__bridegroom">
-					{/* <div className="wrapper__image"> */}
 					<div>
 						<img src="/images/dave-olympic-crop2.jpg" alt="Dave, the groom" className="photo__bride" />
 					</div>
-					<div className="personal__info">
-						<div className="name">Dave Grimm</div>
-						<div className="bio">
+					<div className="bio__container">
+						<div className="name__bridegroom">Dave Grimm</div>
+						<div className="bio__bridegroom">
 							Dave was raised in the Pittsburgh area and attended college at Penn State, where he majored in Civil Engineering. After
 							moving to the Annapolis / Baltimore area, he worked as a Civil Engineer for 15+ years before switching careers to web
 							development. He enjoys <span className="bio__dave">reading trashy romance novels</span> hiking, tennis, golf, racketball,
