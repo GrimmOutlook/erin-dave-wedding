@@ -52,7 +52,8 @@ const GROOMSMEN = [
 		id: 4,
 		name: 'Aaron Stearns',
 		title: 'Best Man',
-		bio: 'Friend for 10 Years',
+		bio:
+			"Aaron and Dave have been friends for the last 10 years after meeting in Fell's Point.  The two have played many games of racketball, rounds of golf, and adult beverages through the years.  Aaron is married to bridesmaid Claire, and they live with their daughter Cece in upstate New York.  Dave was Aaron's best man at his wedding in 2015.  Hopefully Aaron will deliver a better speech than Dave did!",
 		mainImage: '/images/dave-aaron2.jpg',
 		alt: 'Aaron - Best Man',
 		hoverImageClass: 'photo__groomsman1',
@@ -61,7 +62,8 @@ const GROOMSMEN = [
 		id: 5,
 		name: 'Scott Scherer',
 		title: 'Groomsman',
-		bio: 'Friend Since 6th Grade',
+		bio:
+			'Scott and Dave have been friends since Scott was the new kid at school in 6th grade - over 30 years ago!  They have seen many Steeler & Penguin games, deep-fried many turkeys, shared many car trips back and forth to Pittsburgh, and have moved a non-zero amount of pianos together.  Scott lives north of Baltimore with his wife, Lisa, and daughter, Sydney.',
 		mainImage: '/images/dave-olympic (1).jpg',
 		alt: 'Scott - Groomsman',
 		hoverImageClass: 'photo__groomsman2',
@@ -70,7 +72,8 @@ const GROOMSMEN = [
 		id: 6,
 		name: 'Sean Curry',
 		title: 'Groomsman',
-		bio: 'Friend Since High School',
+		bio:
+			'Sean and Dave have been friends since high school.  They have spent a few nights in various Atlantic City casinos, and have attended many Steeler games together, including Super Bowl XL in Detroit.  Sean and his wife Valerie live in the Pittsburgh area with their two children, Allison and Sean.',
 		mainImage: '/images/dave-sean.jpg',
 		alt: 'Sean - Groomsman',
 		hoverImageClass: 'photo__groomsman3',
