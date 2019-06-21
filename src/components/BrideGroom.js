@@ -15,9 +15,9 @@ const BrideGroom = () => (
 						<div className="name__bridegroom">Erin Cantwell</div>
 						<div className="bio__bridegroom">
 							Erin was born in Trenton, NJ and after living in seven different states, spent most of her childhood in the Tampa area.
-							After After graduating with a degree in Wildlife Ecology from the University of Florida, she moved to Pensacola to work at
-							the the the Gulf Breeze Zoo. Since moving to Baltimore in 2011, she has become an Animal Collections Manager at the
-							Maryland hiking, traveling, solving puzzles, hanging out with friends, and the occassional glass of Muscato. Her two
+							After graduating with a degree in Wildlife Ecology from the University of Florida, she moved to Pensacola to work at the
+							Gulf Breeze Zoo. Since moving to Baltimore in 2011, she has become an Animal Collections Manager at the Maryland Zoo. She
+							enjoys hiking, traveling, solving puzzles, hanging out with friends, and the occasional glass of Muscato. Her two
 							wonderful parents - Jay and Rosemary - along with her sister, Misty will be in attendance at the wedding.
 						</div>
 					</div>
@@ -34,11 +34,11 @@ const BrideGroom = () => (
 					<div className="bio__container">
 						<div className="name__bridegroom">Dave Grimm</div>
 						<div className="bio__bridegroom">
-							Dave was raised in the Pittsburgh area and attended college at Penn State, where he majored in Civil Engineering. After
-							moving to the Annapolis / Baltimore area, he worked as a Civil Engineer for 15+ years before switching careers to web
-							development. He enjoys <span className="bio__dave">reading trashy romance novels</span> hiking, tennis, golf, racketball,
-							hanging out with friends, and the occassional beer. His two wonderful parents - Bob and Cindy - along with his sister,
-							Eileen will be in attendance at the wedding.
+							Dave was raised in the Pittsburgh area and attended college at Penn State University, where he majored in Civil
+							Engineering. After moving to the Annapolis / Baltimore area, he worked as a Civil Engineer for 15+ years before switching
+							careers to web development. He enjoys <span className="bio__dave">reading trashy romance novels</span> hiking, tennis,
+							golf, racketball, hanging out with friends, and the occasional beer. His two wonderful parents - Bob and Cindy - along
+							with his sister, Eileen will be in attendance at the wedding.
 						</div>
 					</div>
 				</div>

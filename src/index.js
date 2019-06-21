@@ -20,7 +20,7 @@ const BRIDESMAIDS = [
 		name: 'Misty Cantwell',
 		title: 'Maid of Honor',
 		bio:
-			'The older sister of the bride, Misty is an officer in the Army and is currently stationed in Tacoma, WA.  A graduate of West Point, The US Military Academy, she served 2 tours of duty in Iraq, and 2 tours in Afghanistan.  The sisters often find time in the year to meet for dinner in their many travels.',
+			'The older sister of the bride, Misty is an officer in the Army and is currently stationed at JBLM in Tacoma, WA.  A graduate of West Point, The US Military Academy, she served 2 tours of duty in Iraq, and 2 tours in Afghanistan.  The sisters often find time in the year to meet for dinner in their many travels.  Erin has known Misty literally her entire life.',
 		mainImage: '/images/erin-misty.JPG',
 		alt: 'Misty - Maid of Honor',
 		hoverImageClass: 'photo__maid1',
@@ -30,7 +30,7 @@ const BRIDESMAIDS = [
 		name: 'Cristina Snow',
 		title: 'Bridesmaid',
 		bio:
-			"Erin and Cristina met in 2011 at the zoo.  Cristina trained Erin in her new job and became a great mentor and friend.  While Cristina no longer works at the zoo, she & Erin still see each other often, usually spending time with Cristina's cute son, Carson, who was born in Sept. 2018",
+			"Erin and Cristina met in 2011 at the zoo.  Cristina trained Erin in her new job and became a great mentor and friend.  While Cristina no longer works at the zoo, she & Erin still see each other often, usually spending time with Cristina's cute son, Carson, who was born in Sept. 2018.  She lives in Hampstead, MD with Carson and her husband Derek.",
 		mainImage: '/images/erin-cristina2.jpg',
 		alt: 'Cristina - Bridesmaid',
 		hoverImageClass: 'photo__maid2',
@@ -53,7 +53,7 @@ const GROOMSMEN = [
 		name: 'Aaron Stearns',
 		title: 'Best Man',
 		bio:
-			"Aaron and Dave have been friends for the last 10 years after meeting in Fell's Point.  The two have played many games of racketball, rounds of golf, and adult beverages through the years.  Aaron is married to bridesmaid Claire, and they live with their daughter Cece in upstate New York.  Dave was Aaron's best man at his wedding in 2015.  Hopefully Aaron will deliver a better speech than Dave did!",
+			"Aaron and Dave have been friends for the last 10 years after meeting in Fell's Point.  The two have played many games of racketball, rounds of golf, and sipped many adult beverages through the years.  Aaron is married to bridesmaid Claire, and they live with their daughter Cece in upstate New York.  Dave was Aaron's best man at his wedding in 2015.  Hopefully Aaron will deliver a better speech than Dave did!",
 		mainImage: '/images/dave-aaron2.jpg',
 		alt: 'Aaron - Best Man',
 		hoverImageClass: 'photo__groomsman1',
@@ -73,7 +73,7 @@ const GROOMSMEN = [
 		name: 'Sean Curry',
 		title: 'Groomsman',
 		bio:
-			'Sean and Dave have been friends since high school.  They have spent a few nights in various Atlantic City casinos, and have attended many Steeler games together, including Super Bowl XL in Detroit.  Sean and his wife Valerie live in the Pittsburgh area with their two children, Allison and Sean.',
+			"Sean and Dave have been friends since high school.  They have spent more than a few nights in various Atlantic City casinos, and have attended many Steeler games together, including the Steelers' Super Bowl XL in Detroit.  Sean and his wife Valerie live in the Pittsburgh area with their two children, Allison and Sean.",
 		mainImage: '/images/dave-sean.jpg',
 		alt: 'Sean - Groomsman',
 		hoverImageClass: 'photo__groomsman3',
