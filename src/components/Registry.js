@@ -6,11 +6,9 @@ const Registry = () => (
 	<section className="container__registry" id="registries">
 		<h1 className="registry__title">Registries</h1>
 		<div className="registry__blurb">
-			We have chosen not to regiser for wedding gifts. However, should you insist on making a monetary contribution, we would invite you to make
+			We have chosen not to register for wedding gifts. However, should you insist on making a monetary contribution, we would invite you to make
 			a donation to one of the four charities below through our Good Beginning website, which will track all contributions and make the
 			donations on your behalf. You can do so by clicking the logo below or by clicking any of the listed charities.
-			{/* In lieu of gifts, gift cards, or money, we ask that you make a donation to one of the four charities listed below, or to our honeymoon */}
-			{/* fund. Make your donation to any of the four charities listed below here: */}
 			<br />
 			<a href="https://thegoodbeginning.com/registries/david-grimm-erin-cantwell/" target="_blank" rel="noopener noreferrer">
 				<img src="/images/good-beginning-logo.png" alt="Good Beginning Logo" />
