@@ -64,7 +64,7 @@ const GROOMSMEN = [
 		title: 'Groomsman',
 		bio:
 			'Scott and Dave have been friends since Scott was the new kid at school in 6th grade - over 30 years ago!  They have seen many Steeler & Penguin games, deep-fried many turkeys, shared many car trips back and forth to Pittsburgh, and have moved a non-zero amount of pianos together.  Scott lives north of Baltimore with his wife, Lisa, and daughter, Sydney.',
-		mainImage: '/images/dave-olympic (1).jpg',
+		mainImage: '/images/dave-scott.jpg',
 		alt: 'Scott - Groomsman',
 		hoverImageClass: 'photo__groomsman2',
 	},
